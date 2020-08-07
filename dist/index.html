@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Trigger 触发</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Trigger艺术家作品收藏2020</h1>
+
+<p><input type="text" id="quicksearch" placeholder="Search" /></p>
+
+<div id="filters" class="button-group">
+  <button class="button is-checked" data-filter="*">全部作品</button>
+  <button class="button" data-filter=".动作诗">大地艺术</button>
+  <button class="button" data-filter=".大地艺术">动作诗</button>
+  <button class="button" data-filter=".后网络">后网络</button>
+  <button class="button" data-filter=".互联网艺术">互联网艺术</button>
+  <button class="button" data-filter=".观念艺术">观念艺术</button>
+  <button class="button" data-filter=".散文电影">散文电影</button>
+  <button class="button" data-filter=".社会介入">社会介入</button>
+  <button class="button" data-filter=".声音雕塑">声音雕塑</button>
+  <button class="button" data-filter=".思辨设计">思辨设计</button>
+  <button class="button" data-filter=".算法艺术">算法艺术</button>
+  <button class="button" data-filter=".数字媒体艺术">数字媒体艺术</button>
+  <button class="button" data-filter=".现成品雕塑">现成品雕塑</button>
+  <button class="button" data-filter=".行动艺术">行动艺术</button>
+  <button class="button" data-filter=".系统艺术">系统艺术</button>
+  <button class="button" data-filter=".叙事性影像">叙事性影像</button>
+  <button class="button" data-filter=".研究性艺术">研究性艺术</button>
+  <!-- <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button> -->
+  <!-- <button class="button" data-filter=":not(.transition)">not transition</button> -->
+  <!-- <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button> -->
+</div>
+
+
+<div class="grid">
+  <div class="element-item 数字媒体艺术 " data-category="数字媒体艺术 ">
+    <a class="name" href="http://yi-li.net/" target="blank">一子</a>
+    <a class="title" href="http://yi-li.net/subpage/content.html" target="blank">A Book to Fondle</a>
+    <p class="media">书</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 散文电影 现成品雕塑 " data-category="观念艺术 研究性艺术 散文电影 现成品雕塑 ">
+    <h3 class="name">寇塔</h3>
+    <p class="title">A Case Study of <br />Bloodletting</p>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 " data-category="观念艺术 ">
+    <a class="name" href="https://fengyizhu.studio/" target="blank">朱峰毅</a>
+    <a class="title" href="https://fengyizhu.studio/Airplane-Mode" target="blank">Airplane Mode <br />飞行模式</a>
+    <p class="media">影像</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 算法艺术 数字媒体艺术 互联网艺术 后网络 " data-category="算法艺术 数字媒体艺术 互联网艺术 后网络 ">
+    <a class="name" href="https://www.lixinyi.de/" target="blank">李心怡</a>
+    <a class="title" href="https://www.lixinyi.de/portfolio/all-adventures-are-recalling-the-past/" target="blank">All adventures are recalling the past</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 行动艺术 叙事性影像 " data-category="行动艺术 叙事性影像 ">
+    <a class="name" href="http://yi-li.net/" target="blank">一子</a>
+    <a class="title" href="http://yi-li.net/subpage/content.html" target="blank">A Lucid Dream</a>
+    <p class="media">行为</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 数字媒体艺术 " data-category="数字媒体艺术 ">
+    <a class="name" href="http://yi-li.net/" target="blank">一子</a>
+    <a class="title" href="http://yi-li.net/subpage/content.html" target="blank">A Minimizing Plan</a>
+    <p class="media">影像</p>
+    <p class="date">创作时间：2017年</p>
+  </div>
+  <div class="element-item 系统艺术 " data-category="系统艺术">
+    <a class="name" href="https://xiyaowang.com/index.php?id=2" target="blank">王茜瑶</a>
+    <a class="title" href="https://xiyaowang.com/index.php?id=2&tx_subtilworks_projectsplg%5Bprojects%5D=295&tx_subtilworks_projectsplg%5Baction%5D=show&tx_subtilworks_projectsplg%5Bcontroller%5D=Projects&cHash=8624ce0c51c371738216df01798a01c8" target="blank">before and after, up <br />and down</a>
+    <p class="media">油画</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 行动艺术 " data-category="观念艺术 行动艺术 ">
+    <a class="name" href="https://joylijiayi.myportfolio.com/" target="blank">Joy Li（黎佳仪）</a>
+    <a class="title" href="https://cliffbanquet.com/Collective-Dreaming" target="blank">Collective Dreaming<br />集体梦境</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 数字媒体艺术 后网络 " data-category="数字媒体艺术 后网络 ">
+    <a class="name" href="http://yi-li.net/" target="blank">一子</a>
+    <a class="title" href="http://yi-li.net/subpage/content.html" target="blank">Cryptonym of its <br />final chapter</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 " data-category="观念艺术 研究性艺术 ">
+    <a class="name" href="http://xu6ing.com/" target="blank">徐思行</a>
+    <a class="title" href="https://drive.google.com/drive/folders/1f62J8V61X5whLH0FR6wnB_dZEJk_Uruc?usp=sharing" target="blank">CSSD (One Degree <br />of Freedom)</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 现成品雕塑 " data-category="观念艺术 现成品雕塑 ">
+    <a class="name" href="http://www.yuanfang.art/" target="blank">Yuan Fang（方媛）</a>
+    <a class="title" href="https://images.squarespace-cdn.com/content/v1/554ae79ee4b0149371efa77b/1566869874316-CPBMIA24D03NF6QBDTSA/ke17ZwdGBToddI8pDm48kIY-fYfaG-yeS3cVjj7lNPl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UU8Gas95lim4sGrZdArfBQvc9R8_RjEetORylawofWG32dTLzU6gAnenhtnJylf2EA/YuanFang-14-s.jpg?format=1500w" target="blank">第一枚容器</a>
+    <p class="media">油画</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 数字媒体艺术 " data-category="观念艺术 数字媒体艺术 ">
+    <h3 class="name">寇塔</h3>
+    <p class="title">DYSON 2020</p>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 系统艺术 动作诗 " data-category="观念艺术 系统艺术 动作诗 ">
+    <a class="name" href="https://www.nielisha.com/" target="blank">聂利莎</a>
+    <a class="title" href="https://www.nielisha.com/new-page-15" target="blank">Endlessly Idle with <br />Time</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 叙事性影像 " data-category="叙事性影像 ">
+    <a class="name" href="https://leyuan-li.myportfolio.com/" target="blank">李乐园</a>
+    <p class="title">贰零壹贰壹贰贰壹</p>
+    <p class="media">影像</p>
+    <p class="date">创作时间：2017年</p>
+  </div>
+  <div class="element-item 行动艺术 叙事性影像 " data-category="行动艺术 叙事性影像 ">
+    <a class="name" href="https://v-l-y.io/" target="blank">Vyvyan Y. Li（厉奫）</a>
+    <p class="title">EUTHANASIA<br />安乐死</p>
+    <p class="media">行为</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 叙事性影像 现成品雕塑 " data-category="叙事性影像 现成品雕塑 ">
+    <a class="name" href="http://huangzejian.com/" target="blank">黄泽坚</a>
+    <a class="title" href="https://www.huangzejian.com/installation.html" target="blank">FLESH PAERT🥳</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 行动艺术 叙事性影像 " data-category="行动艺术 叙事性影像 ">
+    <a class="name" href="https://lijuanliu.com/" target="blank">刘丽娟</a>
+    <a class="title" href="https://lijuanliu.com/Here-I-am" target="blank">Here I am</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 散文电影 " data-category="散文电影 ">
+    <a class="name" href="https://www.yasminehuang.com/" target="blank">黄安澜</a>
+    <a class="title" href="https://www.yasminehuang.com/her-love-is-a-bleeding-tank" target="blank">Her Love is a <br />Bleeding Tank</a>
+    <p class="media">行为</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 研究性艺术 " data-category="研究性艺术 ">
+    <a class="name" href="http://yi-li.net/" target="blank">一子</a>
+    <a class="title" href="http://yi-li.net/subpage/content.html" target="blank">Home Sweet Home</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 数字媒体艺术 系统艺术 " data-category="数字媒体艺术 系统艺术 ">
+    <a class="name" href="https://www.nielisha.com/" target="blank">聂利莎</a>
+    <a class="title" href="https://www.nielisha.com/red-fantasy-gives-any-absurdity-a-chance-to-become-part-of-the-logic-on-going" target="blank">红色幻想给了所有<br />荒谬成为逻辑的机<br />会</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 研究性艺术 互联网艺术 后网络 " data-category="研究性艺术 互联网艺术 后网络 ">
+    <a class="name" href="https://www.yasminehuang.com/" target="blank">黄安澜</a>
+    <a class="title" href="https://www.yasminehuang.com/how-to-be-a-former-idol" target="blank">How to be a Former <br />Idol</a>
+    <p class="media">行为</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 思辨设计 " data-category="观念艺术 思辨设计 ">
+    <a class="name" href="https://fengyizhu.studio/" target="blank">朱峰毅</a>
+    <a class="title" href="https://fengyizhu.studio/Icon-Effect" target="blank">Icon Effect</a>
+    <p class="media">影像</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 研究性艺术 社会介入 数字媒体艺术 互联网艺术 后网络 " data-category="研究性艺术 社会介入 数字媒体艺术 互联网艺术 后网络 ">
+    <a class="name" href="https://www.yasminehuang.com/" target="blank">黄安澜</a>
+    <a class="title" href="https://www.yasminehuang.com/illogical-innocence" target="blank">Illogical Innocence</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 社会介入 " data-category="观念艺术 社会介入 ">
+    <a class="name" href="https://www.instagram.com/yesmorerich/" target="blank">姚多金</a>
+    <a class="title" href="https://drive.google.com/file/d/1WYlRbY7r0vdMXQxGOWjRX4VTLkXo3VEN/view?usp=sharing" target="blank">“I moved to 2756 on <br />that street on 2016”</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 叙事性影像 算法艺术 数字媒体艺术 " data-category="叙事性影像 算法艺术 数字媒体艺术 ">
+    <a class="name" href="http://yi-li.net/" target="blank">一子</a>
+    <a class="title" href="http://yi-li.net/subpage/content.html" target="blank">I never thought of <br />leaving, here</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 现成品雕塑 大地艺术 " data-category="现成品雕塑 大地艺术 ">
+    <a class="name" href="https://www.instagram.com/ouyang117831/" target="blank">欧杨</a>
+    <a class="title" href="https://drive.google.com/drive/folders/1iNvhHrlM91uvxQVOY3C9Bweg9eQLlBw9" target="blank">in/consistent <br />system</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 研究性艺术 社会介入 " data-category="研究性艺术 社会介入 ">
+    <a class="name" href="https://www.dotzhihanjia.com/" target="blank">贾芷涵</a>
+    <p class="title">In Search of <br />Mother’s Tongue</p>
+    <p class="media">书</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 数字媒体艺术 " data-category="数字媒体艺术 ">
+    <a class="name" href="https://leyuan-li.myportfolio.com/" target="blank">李乐园</a>
+    <p class="title">连通器</p>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 叙事性影像 " data-category="叙事性影像">
+    <a class="name" href="https://zhouyiting0504.wixsite.com/zhouyiting" target="blank">周裔婷</a>
+    <a class="title" href="https://zhouyiting0504.wixsite.com/zhouyiting/2019-jia-huan" target="blank">家欢</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 " data-category="观念艺术 ">
+    <a class="name" href="https://poe-hanjiaxi.com/" target="blank">韩佳希</a>
+    <a class="title" href="https://poe-hanjiaxi.com/a-letter-home/" target="blank">家书</a>
+    <p class="media">纺织</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 叙事性影像 " data-category="观念艺术 叙事性影像 ">
+    <a class="name" href="http://www.hehuiqi.com/" target="blank">何卉奇</a>
+    <a class="title" href="http://www.hehuiqi.com/the-outsider" target="blank">局外人</a>
+    <p class="media">影像</p>
+    <p class="date">创作时间：2017年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 " data-category="观念艺术 研究性艺术 ">
+    <a class="name" href="http://xu6ing.com/" target="blank">徐思行</a>
+    <a class="title" href="https://drive.google.com/drive/folders/1L8OlDk5JvbWlM18rfTksLoLwdiN9i8-N?usp=sharing" target="blank">看图写话 (080808)</a>
+    <p class="media">雕塑</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 现成品雕塑 " data-category="观念艺术 现成品雕塑 ">
+    <a class="name" href="https://tile0902.wixsite.com/liminglin" target="blank">林丽明</a>
+    <a class="title" href="https://tile0902.wixsite.com/liminglin/liming-lin-international-fans-club" target="blank">林丽明全国粉丝后<br />援会</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 观念艺术 " data-category="观念艺术">
+    <a class="name" href="https://xiachengan.com" target="blank">夏诚安</a>
+    <a class="title" href="https://xiachengan.com/Buy-the-Case-Return-the-Case" target="blank">买椟·还椟</a>
+    <p class="media">摄影</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 散文电影 叙事性影像 " data-category="散文电影 叙事性影像 ">
+    <a class="name" href="https://lizihan-iris.com/" target="blank">李梓涵</a>
+    <a class="title" href="https://lizihan-iris.com/Masks-of-Masks" target="blank">Masks of Masks</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 " data-category="观念艺术">
+    <a class="name" href="https://xiachengan.com" target="blank">夏诚安</a>
+    <a class="title" href="https://xiachengan.com/Aesthetician-Tells-You-Why-Artists-Need-Team-Vitality" target="blank">美的事业</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 思辨设计 " data-category="思辨设计 ">
+    <a class="name" href="https://lizihan-iris.com/" target="blank">李梓涵</a>
+    <a class="title" href="https://lizihan-iris.com/Modern-Therapy" target="blank">Modern Therapy</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 叙事性影像 " data-category="叙事性影像 ">
+    <a class="name" href="http://yi-li.net/" target="blank">一子</a>
+    <a class="title" href="http://yi-li.net/subpage/content.html" target="blank">Mundsburger <br />Damm 23</a>
+    <p class="media">影像</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 叙事性影像 " data-category="叙事性影像 ">
+    <h3 class="name">任盼</h3>
+    <p class="title">你是我的宝贝，我<br />是你的宝贝</p>
+    <p class="media">影像</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 " data-category="观念艺术">
+    <a class="name" href="https://www.instagram.com/yesmorerich/" target="blank">姚多金</a>
+    <a class="title" href="https://drive.google.com/file/d/1rt96PNnplwoD24xU6UcIX7WJl4JOK1GS/view" target="blank">Now Let’s Celebrate, <br />the Incredulity of Charlotte</a>
+    <p class="media">摄影</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 现成品雕塑 " data-category="观念艺术 研究性艺术 现成品雕塑">
+    <a class="name" href="https://www.zhangzhifeng.de/" target="blank">张智峰</a>
+    <a class="title" href="https://www.zhangzhifeng.de/" target="blank">object.09</a>
+    <p class="media">雕塑</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 行动艺术 " data-category="行动艺术 ">
+    <a class="name" href="https://lizihan-iris.com/" target="blank">李梓涵</a>
+    <a class="title" href="https://lizihan-iris.com/ON-AIR" target="blank">ON AIR</a>
+    <p class="media">行为</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 " data-category="观念艺术">
+    <a class="name" href="https://xiachengan.com" target="blank">夏诚安</a>
+    <a class="title" href="https://xiachengan.com/son-of-the-party" target="blank">派对之子</a>
+    <p class="media">书</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 " data-category="观念艺术 研究性艺术 ">
+    <h3 class="name">刘茹心</h3>
+    <p class="title">parrot talking<br />鹦鹉学舌</p>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 后网络 " data-category="后网络 ">
+    <a class="name" href="http://yi-li.net/" target="blank">一子</a>
+    <a class="title" href="http://yi-li.net/subpage/content.html" target="blank">Salli’s home</a>
+    <p class="media">声音</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 互联网艺术 " data-category="观念艺术 互联网艺术 ">
+    <a class="name" href="http://he-shaotong.com/" target="blank">Shaotong He</a>
+    <a class="title" href="http://he-shaotong.com/index.html#shi" target="blank">Second Hand <br />Image</a>
+    <p class="media">数字媒体</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 叙事性影像 " data-category="叙事性影像 ">
+    <h3 class="name">任盼</h3>
+    <p class="title">生日</p>
+    <p class="media">行为</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 叙事性影像 " data-category="观念艺术 叙事性影像 ">
+    <a class="name" href="http://www.hehuiqi.com/" target="blank">何卉奇</a>
+    <a class="title" href="http://www.hehuiqi.com/the-mysterious-island" target="blank">神秘岛</a>
+    <p class="media">影像</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 观念艺术 叙事性影像 算法艺术 现成品雕塑 " data-category="观念艺术 叙事性影像 算法艺术 现成品雕塑 ">
+    <h3 class="name">寇塔</h3>
+    <p class="title">双手手背相对</p>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 声音雕塑 " data-category="声音雕塑 ">
+    <a class="name" href="https://www.lixinyi.de/" target="blank">李心怡</a>
+    <a class="title" href="https://www.lixinyi.de/portfolio/gastronaut/" target="blank">Sidewalk</a>
+    <p class="media">声音</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 散文电影 叙事性影像 " data-category="散文电影 叙事性影像 ">
+    <a class="name" href="https://lizihan-iris.com/" target="blank">李梓涵</a>
+    <a class="title" href="https://lizihan-iris.com/Tech-Paralysis" target="blank">Tech Paralysis</a>
+    <p class="media">行为</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 现成品雕塑 " data-category="观念艺术 现成品雕塑 ">
+    <a class="name" href="https://tile0902.wixsite.com/liminglin" target="blank">林丽明</a>
+    <a class="title" href="https://tile0902.wixsite.com/liminglin/teletubbies" target="blank">Teletubbies</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2017年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 社会介入 行动艺术 系统艺术 " data-category="观念艺术 研究性艺术 社会介入 行动艺术 系统艺术 ">
+    <a class="name" href="https://www.quanyufei.com/" target="blank">Yufei Quan（全宇飞）</a>
+    <a class="title" href="https://www.quanyufei.com/the-artificial-walk-1" target="blank">The artificial walk</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 行动艺术 数字媒体艺术 思辨设计 声音雕塑 " data-category="行动艺术 数字媒体艺术 思辨设计 声音雕塑 ">
+    <a class="name" href="https://www.quanyufei.com/" target="blank">Yufei Quan（全宇飞）</a>
+    <a class="title" href="https://www.quanyufei.com/the-artificial-walk-training" target="blank">The artificial walk <br />(training)</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 行动艺术 " data-category="观念艺术 研究性艺术 行动艺术 ">
+    <a class="name" href="https://www.quanyufei.com/" target="blank">Yufei Quan（全宇飞）</a>
+    <a class="title" href="https://www.quanyufei.com/the-center-of-gravity" target="blank">The center of <br/>gravity</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 行动艺术 " data-category="观念艺术 研究性艺术 行动艺术 ">
+    <a class="name" href="https://www.quanyufei.com/" target="blank">Yufei Quan（全宇飞）</a>
+    <a class="title" href="https://www.quanyufei.com/the-center-of-gravity-2" target="blank">The center of <br/>gravity 2</a>
+    <p class="media">行为</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 算法艺术 数字媒体艺术 互联网艺术 后网络 声音雕塑 " data-category="算法艺术 数字媒体艺术 互联网艺术 后网络 声音雕塑 ">
+    <a class="name" href="https://www.lixinyi.de/" target="blank">李心怡</a>
+    <p class="title">The skin</p>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 现成品雕塑 " data-category="观念艺术 现成品雕塑 ">
+    <a class="name" href="https://joylijiayi.myportfolio.com/" target="blank">Joy Li（黎佳仪）</a>
+    <a class="title" href="https://cliffbanquet.com/The-Skin-of-a-Human-Being" target="blank">The Skin of a Human <br />Being</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 " data-category="观念艺术">
+    <a class="name" href="https://xiachengan.com" target="blank">夏诚安</a>
+    <a class="title" href="https://xiachengan.com/heaven-net" target="blank">天堂网</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 " data-category="观念艺术 ">
+    <a class="name" href="https://www.zhangyiy.com/" target="blank">Yiy Zhang（张潇月）</a>
+    <a class="title" href="https://www.zhangyiy.com/Two-Rivers-Tour" target="blank">two rivers tour</a>
+    <p class="media">雕塑</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 现成品雕塑 " data-category="观念艺术 研究性艺术 现成品雕塑 ">
+    <a class="name" href="https://www.zhangzhifeng.de/" target="blank">张智峰</a>
+    <a class="title" href="https://www.zhangzhifeng.de/" target="blank">UP.05</a>
+    <p class="media">雕塑</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 行动艺术 " data-category="行动艺术 ">
+    <a class="name" href="https://www.instagram.com/ouyang117831/" target="blank">欧杨</a>
+    <a class="title" href="https://drive.google.com/drive/folders/13LJhrtwkCv9IVt65uLrsgzUMoIPEOnBJ?usp=sharing" target="blank">Uwhere to go</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 散文电影 叙事性影像 " data-category="散文电影 叙事性影像 ">
+    <a class="name" href="https://lizihan-iris.com/" target="blank">李梓涵</a>
+    <a class="title" href="https://lizihan-iris.com/void-remember" target="blank">void remember();</a>
+    <p class="media">影像</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 " data-category="观念艺术 研究性艺术 ">
+    <a class="name" href="https://www.instagram.com/yesmorerich/" target="blank">姚多金</a>
+    <a class="title" href="https://vimeo.com/325993871" target="blank">Witnessing as <br />Property</a>
+    <p class="media">摄影</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 观念艺术 研究性艺术 " data-category="观念艺术 研究性艺术 ">
+    <a class="name" href="http://xu6ing.com/" target="blank">徐思行</a>
+    <a class="title" href="https://drive.google.com/drive/folders/1Yn0B_nDVtoJNbaqRVD2mGioNMdvju3Vh?usp=sharing" target="blank">R/K (F/E)</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 叙事性影像 " data-category="叙事性影像">
+    <a class="name" href="http://www.sunxiaotangart.com/" target="blank">孙小棠</a>
+    <a class="title" href="http://www.sunxiaotangart.com/" target="blank">我们把回忆都留在<br />夏威夷了</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 观念艺术 " data-category="观念艺术">
+    <a class="name" href="https://xiachengan.com" target="blank">夏诚安</a>
+    <a class="title" href="https://xiachengan.com/Everybody-wants-to-know-what-s-already-been-told" target="blank">我们只愿去听已经<br />听过的话</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 观念艺术 声音雕塑 " data-category="观念艺术 声音雕塑 ">
+    <a class="name" href="https://leyuan-li.myportfolio.com/" target="blank">李乐园</a>
+    <a class="title" href="https://leyuan-li.myportfolio.com/untitled" target="blank">无题</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 行动艺术 数字媒体艺术 思辨设计 声音雕塑 " data-category="行动艺术 数字媒体艺术 思辨设计 声音雕塑 ">
+    <a class="name" href="https://www.mingnali.com/" target="blank">励明娜</a>
+    <a class="title" href="https://www.mingnali.com/#/in-a-box/" target="blank">在盒子里</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 现成品雕塑 " data-category="现成品雕塑 ">
+    <a class="name" href="http://yi-li.net/" target="blank">一子</a>
+    <a class="title" href="http://yi-li.net/subpage/content.html" target="blank">Zero Player</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+  <div class="element-item 数字媒体艺术 " data-category="数字媒体艺术 ">
+    <a class="name" href="https://leyuan-li.myportfolio.com/" target="blank">李乐园</a>
+    <a class="title" href="https://leyuan-li.myportfolio.com/museum-of-truth" target="blank">真实博物馆</a>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2019年</p>
+  </div>
+  <div class="element-item 观念艺术 社会介入 现成品雕塑 大地艺术 " data-category="观念艺术 社会介入 现成品雕塑 大地艺术 ">
+    <h3 class="name">陈古</h3>
+    <p class="title">纸箱系列</p>
+    <p class="media">装置</p>
+    <p class="date">创作时间：2017年</p>
+  </div>
+  <div class="element-item 观念艺术 " data-category="观念艺术">
+    <a class="name" href="https://xiachengan.com" target="blank">夏诚安</a>
+    <a class="title" href="https://xiachengan.com/Galloisiana-Sinensis" target="blank">中华蛩蠊</a>
+    <p class="media">雕塑</p>
+    <p class="date">创作时间：2020年</p>
+  </div>
+  <div class="element-item 算法艺术 数字媒体艺术 " data-category="算法艺术 数字媒体艺术 ">
+    <a class="name" href="http://yi-li.net/" target="blank">一子</a>
+    <a class="title" href="http://yi-li.net/subpage/content.html" target="blank">👌</a>
+    <p class="media">影像</p>
+    <p class="date">创作时间：2018年</p>
+  </div>
+
+</div>
+
+<!-- import JavaScript -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js'></script>
+<script src="./search.js"></script>
+
+</body>
+</html>
