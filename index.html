@@ -68,7 +68,7 @@
   <el-row :gutter="10">
     <el-col v-for="archive in getArchives" :lg="24" :md="24" :sm="24" :xs="24">
       <div class="result"> 
-        <div class="result_title"> {{ archive.title }} </div>
+        <div class="result_title"><a v-bind:href="archive.artistURL" target="blank"> {{ archive.title }} </a></div>
         <div class="result_date"> {{ archive.date }} </div>
         <div class="bottom-stripe col-md-12">
         <div class="bottom-stripe-inner"></div>        
