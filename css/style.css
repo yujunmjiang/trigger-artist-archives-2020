@@ -1,0 +1,152 @@
+/* customize fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+[v-cloak] {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* search bar */
+
+.search-wrapper {
+  margin: 10px 0;
+}
+
+/* filter */
+
+.filter-wrapper {
+  margin: 10px 0;
+}
+
+button{
+  background: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  transition: .3s ease
+}
+
+button:hover{
+  background: #666666;
+  color: #fff;
+} 
+
+button.active{
+  background: black;
+  color: #fff;
+}
+
+/* responsive layout */
+
+.col-space {
+  content: '&nbsp;';
+}
+@media screen and (max-width: 767px) {
+  .col-space {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 980px;
+  margin: 20px auto;
+}
+@media screen and (max-width: 1050px) {
+  .container {
+    width: 95%;
+  }
+}
+
+/* search result */
+
+.result {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  min-height: 150px;
+  border-radius: 5px;
+  background-color: white;
+  opacity: 0.75;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 10px;
+}
+
+.result_title {
+  font-size: 18pt;
+  font-weight: bold;
+  color: black;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.result_date {
+  color: black;
+  padding-left: 5%;
+}
+
+.result_intro {
+  color: black;
+  padding-left: 45%;
+  padding-right: 5%;
+}
+
+.result_name a {
+  color: black;
+  text-decoration: none;
+  padding-left: 5%;
+}
+.result_name a:hover {
+  color: #666666;
+}
+.result_name a:active {
+  color: #232323;
+}
+
+.result_email {
+  color: black;
+  padding-bottom: 5%;
+  padding-left: 5%;
+}
+
+.result_empty {
+  background-color: transparent;
+  box-shadow: none;
+}
+.result:hover {
+  cursor: pointer;
+}
+
+.el-select {
+  width: 100%;
+}
+
+/* decoration */
+
+.bottom-stripe {
+  width: 100%;
+  padding: 0 0px 3px 0;
+  box-sizing: border-box;
+}
+
+.bottom-stripe-inner {
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+}
+
+.bottom-stripe-inner {
+  background-color: #000;
+}

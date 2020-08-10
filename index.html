@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Trigger Collection</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel='stylesheet' href='https://unpkg.com/element-ui@1.1.6/lib/theme-default/index.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app" v-cloak>
+  
+ <div class="container">
+
+  <el-row class="title" :gutter="10">
+    <el-col>
+      <h1>Trigger Collection</h1>
+    </el-col>
+  </el-row>
+  
+  <el-row class="search-wrapper" :gutter="10">
+    
+    <el-col :lg="12" :md="12" :sm="12" :xs="24">
+      <el-input placeholder="搜索" icon="search" v-model="filter">
+    </el-col>
+      
+    <el-col class="col-space" :lg="6" :md="6" :sm="6" :xs="24"> &nbsp; </el-col>
+     
+    <el-col :lg="6" :md="6" :sm="6" :xs="24">
+      <el-select v-model="sort" placeholder="排序">
+        <el-option id="option"
+          v-for="item in options"
+          :label="item.label"
+          :value="item.value">
+        </el-option>
+      </el-select>
+    </el-col>
+      
+  </el-row> <!-- search wrapper -->
+
+  <el-row class="filter-wrapper" :gutter="10">
+    
+    <el-col :lg="24" :md="24" :sm="24" :xs="24">
+      <div class="filter">
+        <button type="button" @click=" filter='', doIt()" :class="{ active : filter == '' }">全部作品</button>
+        <button type="button" @click=" filter='大地艺术', doIt()" :class="{ active : filter == '大地艺术' }">大地艺术</button>
+        <button type="button" @click=" filter='动作诗', doIt()" :class="{ active : filter == '动作诗' }">动作诗</button>
+        <button type="button" @click=" filter='后网络', doIt()" :class="{ active : filter == '后网络' }">后网络</button>
+        <button type="button" @click=" filter='互联网艺术', doIt()" :class="{ active : filter == '互联网艺术' }">互联网艺术</button>
+        <button type="button" @click=" filter='观念艺术', doIt()" :class="{ active : filter == '观念艺术' }">观念艺术</button>
+        <button type="button" @click=" filter='散文电影', doIt()" :class="{ active : filter == '散文电影' }">散文电影</button>
+        <button type="button" @click=" filter='社会介入', doIt()" :class="{ active : filter == '社会介入' }">社会介入</button>
+        <button type="button" @click=" filter='声音雕塑', doIt()" :class="{ active : filter == '声音雕塑' }">声音雕塑</button>
+        <button type="button" @click=" filter='思辨设计', doIt()" :class="{ active : filter == '思辨设计' }">思辨设计</button>
+        <button type="button" @click=" filter='算法艺术', doIt()" :class="{ active : filter == '算法艺术' }">算法艺术</button>
+        <button type="button" @click=" filter='数字媒体艺术', doIt()" :class="{ active : filter == '数字媒体艺术' }">数字媒体艺术</button>
+        <button type="button" @click=" filter='现成品雕塑', doIt()" :class="{ active : filter == '现成品雕塑' }">现成品雕塑</button>
+        <button type="button" @click=" filter='行动艺术', doIt()" :class="{ active : filter == '行动艺术' }">行动艺术</button>
+        <button type="button" @click=" filter='系统艺术', doIt()" :class="{ active : filter == '系统艺术' }">系统艺术</button>
+        <button type="button" @click=" filter='叙事性影像', doIt()" :class="{ active : filter == '叙事性影像' }">叙事性影像</button>
+        <button type="button" @click=" filter='研究性艺术', doIt()" :class="{ active : filter == '研究性艺术' }">研究性艺术</button>
+      </div>
+    </el-col>
+
+  </el-row> <!-- filter wrapper -->
+
+  <el-row :gutter="10">
+    <el-col v-for="archive in getArchives" :lg="24" :md="24" :sm="24" :xs="24">
+      <div class="result"> 
+        <div class="result_title"> {{ archive.title }} </div>
+        <div class="result_date"> {{ archive.date }} </div>
+        <div class="bottom-stripe col-md-12">
+        <div class="bottom-stripe-inner"></div>        
+        <br />
+        <div class="result_intro"> {{ archive.intro }} </div>
+        <br />
+        <div class="result_name"><a v-bind:href="archive.artistURL" target="blank"> {{ archive.name }} </a></div>
+        <div class="result_email"> {{ archive.email }} </div>
+      </div>
+    </el-col>
+
+    <el-col v-if="getArchives.length === 0" :xs="24" :sm="24" :md="24">
+      <div class="result result__empty"> 未找到相符的结果 </div>
+    </el-col>
+
+  </el-row> <!-- results -->
+    
+ </div> <!-- container -->
+  
+</div> <!-- #app -->
+<!-- partial -->
+<script src='https://unpkg.com/vue/dist/vue.js'></script>
+<script src='https://unpkg.com/element-ui@1.1.6/lib/index.js'>
+</script><script  src="./js/script.js"></script>
+
+</body>
+</html>
