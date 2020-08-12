@@ -44,22 +44,101 @@
     <el-col :lg="24" :md="24" :sm="24" :xs="24">
       <div class="filter">
         <button type="button" @click=" filter='', doIt()" :class="{ active : filter == '' }">全部作品</button>
+        <button type="button" @click=" filter='“边界”', doIt()" :class="{ active : filter == '“边界”' }">“边界”</button>
+        <button type="button" @click=" filter='测量', doIt()" :class="{ active : filter == '测量' }">测量</button>
+        <button type="button" @click=" filter='城市化', doIt()" :class="{ active : filter == '城市化' }">城市化</button>
         <button type="button" @click=" filter='大地艺术', doIt()" :class="{ active : filter == '大地艺术' }">大地艺术</button>
+        <button type="button" @click=" filter='道德相关', doIt()" :class="{ active : filter == '道德相关' }">道德相关</button>
         <button type="button" @click=" filter='动作诗', doIt()" :class="{ active : filter == '动作诗' }">动作诗</button>
+        <button type="button" @click=" filter='都市文化', doIt()" :class="{ active : filter == '都市文化' }">都市文化</button>
+        <button type="button" @click=" filter='个人经历', doIt()" :class="{ active : filter == '个人经历' }">个人经历</button>
         <button type="button" @click=" filter='后网络', doIt()" :class="{ active : filter == '后网络' }">后网络</button>
+        <button type="button" @click=" filter='“后人类”', doIt()" :class="{ active : filter == '“后人类”' }">“后人类”</button>
+        <button type="button" @click=" filter='后真实', doIt()" :class="{ active : filter == '后真实' }">后真实</button>
+        <button type="button" @click=" filter='后殖民/第三世界/global south', doIt()" :class="{ active : filter == '后殖民/第三世界/global south' }">后殖民/第三世界/global south</button>
+        <button type="button" @click=" filter='环境与生态', doIt()" :class="{ active : filter == '环境与生态' }">环境与生态</button>
+        <button type="button" @click=" filter='互联网', doIt()" :class="{ active : filter == '互联网' }">互联网</button>
         <button type="button" @click=" filter='互联网艺术', doIt()" :class="{ active : filter == '互联网艺术' }">互联网艺术</button>
+        <button type="button" @click=" filter='公共空间', doIt()" :class="{ active : filter == '公共空间' }">公共空间</button>
+        <button type="button" @click=" filter='光', doIt()" :class="{ active : filter == '光' }">光</button>
+        <button type="button" @click=" filter='观看', doIt()" :class="{ active : filter == '观看' }">观看</button>
+        <button type="button" @click=" filter='观看/凝视', doIt()" :class="{ active : filter == '观看/凝视' }">观看/凝视</button>
         <button type="button" @click=" filter='观念艺术', doIt()" :class="{ active : filter == '观念艺术' }">观念艺术</button>
+        <button type="button" @click=" filter='关系（人与人，文化与文化，国与国etc）', doIt()" :class="{ active : filter == '关系（人与人，文化与文化，国与国etc）' }">关系（人与人，文化与文化，国与国etc）</button>
+        <button type="button" @click=" filter='过程相关', doIt()" :class="{ active : filter == '过程相关' }">过程相关</button>
+        <button type="button" @click=" filter='建筑相关', doIt()" :class="{ active : filter == '建筑相关' }">建筑相关</button>
+        <button type="button" @click=" filter='解构', doIt()" :class="{ active : filter == '解构' }">解构</button>
+        <button type="button" @click=" filter='机构批判', doIt()" :class="{ active : filter == '机构批判' }">机构批判</button>
+        <button type="button" @click=" filter='精神分析', doIt()" :class="{ active : filter == '精神分析' }">精神分析</button>
+        <button type="button" @click=" filter='记忆', doIt()" :class="{ active : filter == '记忆' }">记忆</button>
+        <button type="button" @click=" filter='科幻/科学', doIt()" :class="{ active : filter == '科幻/科学' }">科幻/科学</button>
+        <button type="button" @click=" filter='跨文化', doIt()" :class="{ active : filter == '跨文化' }">跨文化</button>
+        <button type="button" @click=" filter='跨学科研究', doIt()" :class="{ active : filter == '跨学科研究' }">跨学科研究</button>
+        <button type="button" @click=" filter='历史', doIt()" :class="{ active : filter == '历史' }">历史</button>
+        <button type="button" @click=" filter='梦境', doIt()" :class="{ active : filter == '梦境' }">梦境</button>
+        <button type="button" @click=" filter='“民族志”研究', doIt()" :class="{ active : filter == '“民族志”研究' }">“民族志”研究</button>
+        <button type="button" @click=" filter='陌生人/社交软件', doIt()" :class="{ active : filter == '陌生人/社交软件' }">陌生人/社交软件</button>
+        <button type="button" @click=" filter='男性气质', doIt()" :class="{ active : filter == '男性气质' }">男性气质</button>
+        <button type="button" @click=" filter='农村文化', doIt()" :class="{ active : filter == '农村文化' }">农村文化</button>
+        <button type="button" @click=" filter='女权/女性', doIt()" :class="{ active : filter == '女权/女性' }">女权/女性</button>
+        <button type="button" @click=" filter='权力规训系统/身体', doIt()" :class="{ active : filter == '权力规训系统/身体' }">权力规训系统/身体</button>
+        <button type="button" @click=" filter='全球化', doIt()" :class="{ active : filter == '全球化' }">全球化</button>
+        <button type="button" @click=" filter='人工智能', doIt()" :class="{ active : filter == '人工智能' }">人工智能</button>
+        <button type="button" @click=" filter='人类工业', doIt()" :class="{ active : filter == '人类工业' }">人类工业</button>
+        <button type="button" @click=" filter='日常生活', doIt()" :class="{ active : filter == '日常生活' }">日常生活</button>
+        <button type="button" @click=" filter='日常物件的表达', doIt()" :class="{ active : filter == '日常物件的表达' }">日常物件的表达</button>
         <button type="button" @click=" filter='散文电影', doIt()" :class="{ active : filter == '散文电影' }">散文电影</button>
+        <button type="button" @click=" filter='山寨/模仿', doIt()" :class="{ active : filter == '山寨/模仿' }">山寨/模仿</button>
         <button type="button" @click=" filter='社会介入', doIt()" :class="{ active : filter == '社会介入' }">社会介入</button>
+        <button type="button" @click=" filter='社交网络', doIt()" :class="{ active : filter == '社交网络' }">社交网络</button>
         <button type="button" @click=" filter='声音雕塑', doIt()" :class="{ active : filter == '声音雕塑' }">声音雕塑</button>
+        <button type="button" @click=" filter='神话', doIt()" :class="{ active : filter == '神话' }">神话</button>
+        <button type="button" @click=" filter='神秘主义', doIt()" :class="{ active : filter == '神秘主义' }">神秘主义</button>
+        <button type="button" @click=" filter='时间', doIt()" :class="{ active : filter == '时间' }">时间</button>
         <button type="button" @click=" filter='思辨设计', doIt()" :class="{ active : filter == '思辨设计' }">思辨设计</button>
+        <button type="button" @click=" filter='死亡/悼念', doIt()" :class="{ active : filter == '死亡/悼念' }">死亡/悼念</button>
+        <button type="button" @click=" filter='算法', doIt()" :class="{ active : filter == '算法' }">算法</button>
         <button type="button" @click=" filter='算法艺术', doIt()" :class="{ active : filter == '算法艺术' }">算法艺术</button>
         <button type="button" @click=" filter='数字媒体艺术', doIt()" :class="{ active : filter == '数字媒体艺术' }">数字媒体艺术</button>
+        <button type="button" @click=" filter='“他者”', doIt()" :class="{ active : filter == '“他者”' }">“他者”</button>
+        <button type="button" @click=" filter='图像传播', doIt()" :class="{ active : filter == '图像传播' }">图像传播</button>
+        <button type="button" @click=" filter='图像复制品', doIt()" :class="{ active : filter == '图像复制品' }">图像复制品</button>
+        <button type="button" @click=" filter='“乌托邦”', doIt()" :class="{ active : filter == '“乌托邦”' }">“乌托邦”</button>
+        <button type="button" @click=" filter='消费主义', doIt()" :class="{ active : filter == '消费主义' }">消费主义</button>
+        <button type="button" @click=" filter='肖像', doIt()" :class="{ active : filter == '肖像' }">肖像</button>
         <button type="button" @click=" filter='现成品雕塑', doIt()" :class="{ active : filter == '现成品雕塑' }">现成品雕塑</button>
+        <button type="button" @click=" filter='线条', doIt()" :class="{ active : filter == '线条' }">线条</button>
+        <button type="button" @click=" filter='西方视角/西方中心主义', doIt()" :class="{ active : filter == '西方视角/西方中心主义' }">西方视角/西方中心主义</button>
+        <button type="button" @click=" filter='性别认同', doIt()" :class="{ active : filter == '性别认同' }">性别认同</button>
+        <button type="button" @click=" filter='形式', doIt()" :class="{ active : filter == '形式' }">形式</button>
         <button type="button" @click=" filter='行动艺术', doIt()" :class="{ active : filter == '行动艺术' }">行动艺术</button>
+        <button type="button" @click=" filter='“系统”', doIt()" :class="{ active : filter == '“系统”' }">“系统”</button>
         <button type="button" @click=" filter='系统艺术', doIt()" :class="{ active : filter == '系统艺术' }">系统艺术</button>
+        <button type="button" @click=" filter='虚构的现实', doIt()" :class="{ active : filter == '虚构的现实' }">虚构的现实</button>
+        <button type="button" @click=" filter='虚拟现实', doIt()" :class="{ active : filter == '虚拟现实' }">虚拟现实</button>
         <button type="button" @click=" filter='叙事性影像', doIt()" :class="{ active : filter == '叙事性影像' }">叙事性影像</button>
         <button type="button" @click=" filter='研究性艺术', doIt()" :class="{ active : filter == '研究性艺术' }">研究性艺术</button>
+        <button type="button" @click=" filter='言论自由', doIt()" :class="{ active : filter == '言论自由' }">言论自由</button>
+        <button type="button" @click=" filter='颜色', doIt()" :class="{ active : filter == '颜色' }">颜色</button>
+        <button type="button" @click=" filter='亚文化', doIt()" :class="{ active : filter == '亚文化' }">亚文化</button>
+        <button type="button" @click=" filter='“异化”', doIt()" :class="{ active : filter == '“异化”' }">“异化”</button>
+        <button type="button" @click=" filter='医疗/健康', doIt()" :class="{ active : filter == '医疗/健康' }">医疗/健康</button>
+        <button type="button" @click=" filter='移民/迁徙', doIt()" :class="{ active : filter == '移民/迁徙' }">移民/迁徙</button>
+        <button type="button" @click=" filter='艺术界话题', doIt()" :class="{ active : filter == '艺术界话题' }">艺术界话题</button>
+        <button type="button" @click=" filter='艺术史相关', doIt()" :class="{ active : filter == '艺术史相关' }">艺术史相关</button>
+        <button type="button" @click=" filter='诱惑与求爱', doIt()" :class="{ active : filter == '诱惑与求爱' }">诱惑与求爱</button>
+        <button type="button" @click=" filter='幽灵学', doIt()" :class="{ active : filter == '幽灵学' }">幽灵学</button>
+        <button type="button" @click=" filter='幽默感', doIt()" :class="{ active : filter == '幽默感' }">幽默感</button>
+        <button type="button" @click=" filter='游戏', doIt()" :class="{ active : filter == '游戏' }">游戏</button>
+        <button type="button" @click=" filter='语言/翻译', doIt()" :class="{ active : filter == '语言/翻译' }">语言/翻译</button>
+        <button type="button" @click=" filter='灾害', doIt()" :class="{ active : filter == '灾害' }">灾害</button>
+        <button type="button" @click=" filter='战争相关', doIt()" :class="{ active : filter == '战争相关' }">战争相关</button>
+        <button type="button" @click=" filter='政治波谱', doIt()" :class="{ active : filter == '政治波谱' }">政治波谱</button>
+        <button type="button" @click=" filter='政治事件', doIt()" :class="{ active : filter == '政治事件' }">政治事件</button>
+        <button type="button" @click=" filter='种族和民族认同', doIt()" :class="{ active : filter == '种族和民族认同' }">种族和民族认同</button>
+        <button type="button" @click=" filter='自然景观', doIt()" :class="{ active : filter == '自然景观' }">自然景观</button>
+        <button type="button" @click=" filter='宗教', doIt()" :class="{ active : filter == '宗教' }">宗教</button>
+        <button type="button" @click=" filter='其他', doIt()" :class="{ active : filter == '其他' }">其他</button>
       </div>
     </el-col>
 

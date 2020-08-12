@@ -1482,7 +1482,8 @@ new Vue({
       var archives = this.archives.filter(archive => {
         return archive.name.toLowerCase().includes(this.filter.toLowerCase()) || 
         archive.title.toLowerCase().includes(this.filter.toLowerCase()) || 
-        archive.type.toLowerCase().includes(this.filter.toLowerCase())
+        archive.type.toLowerCase().includes(this.filter.toLowerCase()) || 
+        archive.theme.toLowerCase().includes(this.filter.toLowerCase())
       });
 
       if (this.sort == 'latest') {
