@@ -1,6 +1,3 @@
-// Thanks Dev Coffee! :) 
-// https://www.youtube.com/watch?v=VPUdtEf3oXI
-
 new Vue({
   el: '#app',
   data() {
@@ -30,7 +27,8 @@ new Vue({
             type: "观念艺术, 研究性艺术, 现成品雕塑",
             theme: "个人经历, 山寨/模仿, 日常生活, 艺术史相关, 日常物件的表达, 解构",
             theory: "Vilem Flusser，语言学、现象学",
-            narration: false
+            narration: false,
+            preview: ""
         },
         {
             id: 1,
@@ -52,7 +50,8 @@ new Vue({
             refer: "伊卡洛斯，希腊神话，博尔赫斯，环形废墟，太阳与铁",
             symbol: "伊卡洛斯，拼音",
             narration: true,
-            interdisciplinary: "剧场、行为、装置、雕塑、声音艺术、服装"
+            interdisciplinary: "剧场、行为、装置、雕塑、声音艺术、服装",
+            preview: "assets/preview/黎佳仪-Collective-Dreaming.jpg"
         },
         {
             id: 2,
@@ -69,7 +68,8 @@ new Vue({
             type: "观念艺术, 研究性艺术, 现成品雕塑",
             theme: "个人经历, 山寨/模仿, 艺术史相关, 日常物件的表达",
             theory: "几何学",
-            narration: false
+            narration: false,
+            preview: "assets/preview/张智峰-UP-05.jpg"
         },
         {
             id: 3,
@@ -81,7 +81,7 @@ new Vue({
             email: "charlotteyaoyaoyao@gmail.com",
             title: "Now Let’s Celebrate, the Incredulity of Charlotte \n",
             workURL: "https://drive.google.com/file/d/1rt96PNnplwoD24xU6UcIX7WJl4JOK1GS/view?usp=sharing",
-            intro: "对以西方为中心的，自宗教到生活方式的，对单一标准化崇尚的一次质疑",
+            intro: "对以西方为中心的，自宗教到生活方式的，对单一标准化崇尚的一次质疑。",
             media: "摄影",
             amount: "单件",
             date: "2020",
@@ -90,7 +90,8 @@ new Vue({
             theory: "德勒兹，块茎，游牧；黑特·史德耶尔，西方中心主义；",
             refer: "卡拉瓦乔 “圣·托马斯的探试“",
             symbol: "手指",
-            narration: false
+            narration: false,
+            preview: "assets/preview/姚多金-NLC-TIOC.jpg"
         },
         {
             id: 4,
@@ -108,7 +109,8 @@ new Vue({
             date: "2018",
             type: "观念艺术",
             theme: "都市文化, 消费主义, 山寨/模仿, 幽默感",
-            narration: true
+            narration: true,
+            preview: "assets/preview/夏诚安-派对之子.jpg"
         },
         {
             id: 5,
@@ -126,7 +128,8 @@ new Vue({
             date: "2019",
             type: "观念艺术",
             theme: "“异化”, 都市文化, 山寨/模仿, 政治波谱, 幽默感",
-            narration: true
+            narration: true,
+            preview: "assets/preview/夏诚安-美的事业.jpg"
         },
         {
             id: 6,
@@ -144,7 +147,8 @@ new Vue({
             date: "2019",
             type: "观念艺术",
             theme: "全球化, 都市文化, 消费主义, 山寨/模仿",
-            narration: false
+            narration: false,
+            preview: "assets/preview/夏诚安-买椟还椟.jpg"
         },
         {
             id: 7,
@@ -164,7 +168,8 @@ new Vue({
             theme: "“异化”, 都市文化, 山寨/模仿, 政治光谱（左右之分）",
             theory: "艾瑞克·霍布斯鲍姆",
             refer: "传统的发明",
-            narration: false
+            narration: false,
+            preview: "assets/preview/夏诚安-中华蛩蠊.jpg"
         },
         {
             id: 8,
@@ -182,7 +187,8 @@ new Vue({
             date: "2020",
             type: "观念艺术",
             theme: "“异化”, 都市文化, 农村文化, 消费主义, 亚文化, 山寨/模仿, 政治波谱, 幽默感",
-            narration: false
+            narration: false,
+            preview: "assets/preview/夏诚安-我们只愿去听已经听过的话.jpg"
         },
         {
             id: 9,
@@ -201,7 +207,8 @@ new Vue({
             type: "观念艺术, 社会介入",
             theme: "全球化, “异化”, 移民/迁徙, 跨文化, 种族和民族认同, “民族志”研究",
             theory: "哈尔·福斯特，民族志；",
-            narration: false
+            narration: false,
+            preview: "assets/preview/姚多金-2756.jpg"
         },
         {
             id: 10,
@@ -219,7 +226,8 @@ new Vue({
             date: "2020",
             type: "观念艺术",
             theme: "“异化”, 都市文化, 农村文化, 消费主义, 山寨/模仿, 死亡/悼念",
-            narration: false
+            narration: false,
+            preview: "assets/preview/夏诚安-天堂网.jpg"
         },
         {
             id: 11,
@@ -238,7 +246,8 @@ new Vue({
             type: "观念艺术, 研究性艺术",
             theme: "解构, 图像传播，观看",
             theory: "约翰·伯格，观看之道；杨小彦，视觉秩序；黑特·史德耶尔，坏图像",
-            symbol: "图像"
+            symbol: "图像",
+            preview: "assets/preview/姚多金-WAP.jpg"
         },
         {
             id: 12,
@@ -258,7 +267,8 @@ new Vue({
             theme: "记忆, 虚构的现实",
             theory: "巫鸿",
             refer: "陈思和《暗淡岁月》",
-            narration: true
+            narration: true,
+            preview: "assets/preview/周裔婷-家欢.jpg"
         },
         {
             id: 13,
@@ -277,7 +287,8 @@ new Vue({
             theme: "全球化",
             refer: "太平洋垃圾带",
             symbol: "粉末",
-            narration: true
+            narration: true,
+            preview: "assets/preview/孙小棠-我们把回忆都留在夏威夷了.jpg"
         },
         {
             id: 14,
@@ -297,7 +308,8 @@ new Vue({
             theme: "个人经历, 日常生活, 记忆, 线条，形式，颜色",
             theory: "物性论, 偶微偏",
             symbol: "线条",
-            narration: true
+            narration: true,
+            preview: "assets/preview/王茜瑶-BAA-UAD.jpg"
         },
         {
             id: 15,
@@ -317,7 +329,8 @@ new Vue({
             theme: "个人经历, 全球化, 城市化, 移民/迁徙, 西方视角/西方中心主义, 过程相关",
             theory: "关系美学",
             symbol: "证件照",
-            narration: false
+            narration: false,
+            preview: "assets/preview/刘丽娟-Here I am.jpg"
         },
         {
             id: 16,
@@ -328,6 +341,7 @@ new Vue({
             DOB: "1994年1月14日",
             email: "lixinyi.1203@gmail.com",
             title: "Sidewalk ",
+            workURL: "https://www.lixinyi.de/portfolio/gastronaut/",
             intro: "这个作品我运用了采样这一个在音乐制作领域常用的手法。我先录了一段自己在人行道上漫步时环境的声音，然后通过对这一段材料不断地采样和再采样把街头的声音图景抽象化，让节奏这个被隐喻话的词语回归到音乐性的听觉体验里。",
             media: "声音",
             amount: "单件",
@@ -337,7 +351,8 @@ new Vue({
             theory: "声音研究；公共空间",
             refer: "Acoustic Territories : Sound Culture And Everyday Life",
             narration: false,
-            interdisciplinary: "音乐；声音设计"
+            interdisciplinary: "音乐；声音设计",
+            preview: "assets/preview/李心怡-Sidewalk.jpg"
         },
         {
             id: 17,
@@ -347,15 +362,16 @@ new Vue({
             artistURL: "https://www.zhangyiy.com",
             DOB: "1990年10月22日",
             email: "zhangyiy@zhangyiy.com",
-            title: "two rivers tour ",
-            workURL: "https://www.zhangyiy.com",
-            intro: "两江游",
+            title: "Two Rivers Tour",
+            workURL: "https://www.zhangyiy.com/Two-Rivers-Tour",
+            intro: "两江游。",
             media: "雕塑（包括玻璃，综合材料）",
             amount: "单件",
             date: "2019",
             type: "观念艺术",
             theme: "其他",
-            narration: false
+            narration: false,
+            preview: "assets/preview/张潇月-Two Rivers Tour.jpg"
         },
         {
             id: 18,
@@ -365,7 +381,8 @@ new Vue({
             artistURL: "https://www.lixinyi.de",
             DOB: "1994年1月14日",
             email: "lixinyi.1203@gmail.com",
-            title: "All adventures are recalling the past ",
+            title: "All Adventures are Recalling the Past",
+            workURL: "https://www.lixinyi.de/portfolio/all-adventures-are-recalling-the-past/",
             intro: "不清晰的风景存在于远方，也存在于我们不可能被完整唤起的记忆里。物理上的远与近，时间上的未来与过去就在这种远眺的目光里共存。",
             media: "装置（包括影像装置）, 数字媒体（包括算法艺术,网络艺术,VR）",
             amount: "单件",
@@ -376,7 +393,8 @@ new Vue({
             refer: "不清晰的历史(Die Geschichte der Unscharfe)",
             symbol: "电脑墙纸中的雪山",
             narration: true,
-            interdisciplinary: "编程"
+            interdisciplinary: "编程",
+            preview: "assets/preview/李心怡-All Adventures are Recalling the Past.jpg"
         },
         {
             id: 19,
@@ -386,7 +404,7 @@ new Vue({
             artistURL: "https://www.lixinyi.de",
             DOB: "1994年1月14日",
             email: "lixinyi.1203@gmail.com",
-            title: "The skin",
+            title: "The Skin",
             intro: "有一天我在网上我无意之中发现了一个免费的声音采样包，里面是大量不同的枪支的声音。这些声音并不来自对真实武器的录音，而是用合成器和其他声音处理技术制造出来的。我以这些被制造出来的声音为材料以相同得工具和手法对它们进行再处理，使它们可以用于新的场景，而不再是去支持暴力的叙事。",
             media: "装置（包括影像装置）, 数字媒体（包括算法艺术,网络艺术,VR）, 影像（包括实验电影，动画）, 声音",
             amount: "系列",
@@ -395,7 +413,8 @@ new Vue({
             theme: "个人经历, 互联网, 游戏, 社交网络, 虚拟现实, 亚文化, 幽默感, 虚构的现实, 战争相关, 艺术史相关",
             theory: "Michel Chion的视听研究",
             refer: "《视听——幻觉的构建》",
-            narration: true
+            narration: true,
+            preview: ""
         },
         {
             id: 20,
@@ -415,7 +434,8 @@ new Vue({
             theme: "“异化”, 城市化, 女权/女性, “他者”, 日常生活, 幽默感, 虚构的现实",
             theory: "列斐伏尔/空间理论/物体系",
             refer: "博尔赫斯/特隆、乌克巴尔、奥比斯·特蒂乌斯",
-            narration: true
+            narration: true,
+            preview: "assets/preview/何卉奇-局外人.jpg"
         },
         {
             id: 21,
@@ -426,7 +446,7 @@ new Vue({
             DOB: "1994年8月10日",
             email: "leyuanliart@gmail.con",
             title: "真实博物馆",
-            intro: "这是⼀一个由实体装置和VR内虚拟装置两部分组成的作品, 通过⾁肉体空间(Meatspace)中平⾯面 的灯块与虚拟空间中的悬浮发光⽴立⽅方体形成呼应,引导观众进⾏行行⼀一次空间穿梭.",
+            intro: "这是⼀一个由实体装置和VR内虚拟装置两部分组成的作品, 通过⾁肉体空间(Meatspace)中平⾯面 的灯块与虚拟空间中的悬浮发光⽴立⽅方体形成呼应,引导观众进⾏行行⼀一次空间穿梭。",
             media: "装置（包括影像装置）",
             amount: "单件",
             date: "2019",
@@ -435,7 +455,8 @@ new Vue({
             theory: "模拟假说 模拟理论",
             refer: "时间简史 模拟假说",
             narration: false,
-            interdisciplinary: "物理学"
+            interdisciplinary: "物理学",
+            preview: ""
         },
         {
             id: 22,
@@ -454,7 +475,8 @@ new Vue({
             theory: "福柯/微观权力系统/阿甘本/生命权力/监视社会/规训社会/身体/列斐伏尔",
             refer: "神秘岛，机械岛（凡尔纳）",
             symbol: "岛屿",
-            narration: true
+            narration: true,
+            preview: "assets/preview/何卉奇-神秘岛.jpg"
         },
         {
             id: 23,
@@ -471,7 +493,8 @@ new Vue({
             date: "2019",
             type: "叙事性影像",
             theme: "个人经历, 女权/女性, 虚构的现实",
-            narration: true
+            narration: true,
+            preview: "assets/preview/任盼-生日.jpg"
         },
         {
             id: 24,
@@ -490,7 +513,8 @@ new Vue({
             theme: "虚拟现实, “系统”, 虚构的现实, 线条，形式，颜色, 艺术史相关",
             theory: "模拟假说 模拟理论 ",
             refer: "模拟假说 ",
-            narration: false
+            narration: false,
+            preview: ""
         },
         {
             id: 25,
@@ -509,7 +533,8 @@ new Vue({
             theme: "个人经历, 互联网, 跨文化, 语言/翻译, 种族和民族认同, 性别认同, 战争相关",
             theory: "语言学",
             refer: "叙利亚战争 人类语言学",
-            narration: false
+            narration: false,
+            preview: ""
         },
         {
             id: 26,
@@ -527,7 +552,8 @@ new Vue({
             type: "叙事性影像",
             theme: "性别认同, 女权/女性",
             symbol: "孕腹",
-            narration: true
+            narration: true,
+            preview: "assets/preview/任盼-youaremybabyiamyourbaby10.jpg"
         },
         {
             id: 27,
@@ -545,7 +571,8 @@ new Vue({
             type: "叙事性影像",
             theme: "个人经历, 城市化, 自然景观, 环境与生态, 人类工业",
             refer: "佛教轮回",
-            narration: false
+            narration: false,
+            preview: ""
         },
         {
             id: 28,
@@ -565,7 +592,8 @@ new Vue({
             theme: "个人经历, 全球化, 诱惑与求爱",
             theory: "关系美学",
             symbol: "抽象表现主义绘画",
-            narration: false
+            narration: false,
+            preview: "assets/preview/方媛-第一枚容器.jpg"
         },
         {
             id: 29,
@@ -585,7 +613,8 @@ new Vue({
             theme: "个人经历, 全球化, 都市文化, “边界”, 移民/迁徙, 跨文化, 语言/翻译, 种族和民族认同, 西方视角/西方中心主义, “他者”, “系统”, 日常生活, 虚构的现实, 历史, 日常物件的表达",
             theory: "福柯（词与物）, Epistemology, cultural studies",
             refer: "Chris Marker, Le Joli Mai 美好的五月; Michel Foucault, The Order of Things 词与物; Bruno Latour, The Berlin Key",
-            narration: true
+            narration: true,
+            preview: "assets/preview/徐思行-CSSD.jpg"
         },
         {
             id: 30,
@@ -603,7 +632,8 @@ new Vue({
             theme: "个人经历, 全球化, 语言/翻译, 记忆, 时间, 解构, 后殖民/第三世界/global south",
             theory: "roland barthes, the third meaning",
             refer: "林清玄《和时间赛跑》，Joseph Brodsky, Less Than One 布罗茨基《小于一》",
-            narration: true
+            narration: true,
+            preview: "assets/preview/徐思行-PWW.jpg"
         },
         {
             id: 31,
@@ -621,7 +651,8 @@ new Vue({
             theme: "个人经历, 全球化, “边界”, 移民/迁徙, 跨文化, 语言/翻译, “他者”, 虚构的现实, 战争相关,  关系（人与人，文化与文化，国与国etc）",
             theory: "roland barthes, the third meaning; a lover's discourse; mythologies ",
             refer: "Roberto Bolano, Last Evenings on Earth 罗贝托 波拉尼奥《地球上最后的夜晚》",
-            narration: true
+            narration: true,
+            preview: "assets/preview/徐思行-RK.jpg"
         },
         {
             id: 32,
@@ -643,7 +674,8 @@ new Vue({
             refer: "Onto-cartography: An Ontology of Machines and Media, Democracy of Objects, Visual Explanations: Images and Quantities, Evidence and Narrative",
             symbol: "XYZ 相线图标",
             narration: false,
-            interdisciplinary: "计算机图形，交互设计"
+            interdisciplinary: "计算机图形，交互设计",
+            preview: "assets/preview/朱峰毅-Icon Effect.jpg"
         },
         {
             id: 33,
@@ -664,7 +696,8 @@ new Vue({
             theory: "\n现象学，New Materialism, Levi Bryant, 胡赛，Robert Sokolowski, Edward Tufte",
             refer: "Onto-cartography: An Ontology of Machines and Media, Democracy of Objects, Visual Explanations: Images and Quantities, Evidence and Narrative",
             symbol: "飞行模式(苹果)",
-            narration: false
+            narration: false,
+            preview: "assets/preview/朱峰毅-IAirplane Mode.jpg"
         },
         {
             id: 34,
@@ -686,7 +719,8 @@ new Vue({
             refer: "无",
             symbol: "皮肤/人体/ 肤色/ 器官/ 工业现成品",
             narration: true,
-            interdisciplinary: "无"
+            interdisciplinary: "无",
+            preview: "assets/preview/黄泽坚-FLESH PAERT 92.jpg"
         },
         {
             id: 35,
@@ -708,7 +742,8 @@ new Vue({
             refer: "无",
             symbol: "皮肤/人体/ 肤色/ 器官/ 工业现成品",
             narration: true,
-            interdisciplinary: "无"
+            interdisciplinary: "无",
+            preview: "assets/preview/黄泽坚-FLESH PAERT 26.jpg"
         },
         {
             id: 36,
@@ -730,7 +765,8 @@ new Vue({
             refer: "无",
             symbol: "皮肤/人体/ 肤色/ 器官/ 工业现成品",
             narration: true,
-            interdisciplinary: "无"
+            interdisciplinary: "无",
+            preview: "assets/preview/黄泽坚-SOLO SHOW FLESH PARTY.jpg"
         },
         {
             id: 37,
@@ -741,7 +777,7 @@ new Vue({
             DOB: "1996年6月7日",
             email: "zhihanjia67@gmail.com",
             title: "In Search of Mother’s Tongue",
-            intro: "一本书",
+            intro: "一本书。",
             media: "书",
             amount: "单件",
             date: "2020",
@@ -751,7 +787,8 @@ new Vue({
             refer: "女书",
             symbol: "女书",
             narration: true,
-            interdisciplinary: "民族学"
+            interdisciplinary: "民族学",
+            preview: "assets/preview/贾芷涵-In Search of Mother’s Tongue.jpg"
         },
         {
             id: 38,
@@ -772,7 +809,8 @@ new Vue({
             refer: "希腊神话",
             symbol: "时间、人造花朵、假花、喷泉、烟花、塑料",
             narration: true,
-            interdisciplinary: "雕塑、服装、摄影、行为、表演"
+            interdisciplinary: "雕塑、服装、摄影、行为、表演",
+            preview: "assets/preview/黎佳仪-The Skin of a Huamn Being.jpg"
         },
         {
             id: 39,
@@ -791,7 +829,8 @@ new Vue({
             type: "观念艺术, 互联网艺术",
             theme: "“异化”, 互联网, 山寨/模仿, “边界”, 艺术界话题, 机构批判, 幽默感, 解构, 观看/凝视，图像复制品",
             theory: "Bruno Latour, Boris Grorys, Walter Benjamin",
-            narration: false
+            narration: false,
+            preview: ""
         },
         {
             id: 40,
@@ -812,7 +851,8 @@ new Vue({
             theory: "形而上学，超人哲学",
             refer: "理想国，查拉图斯特拉如是说",
             symbol: "太阳",
-            narration: false
+            narration: false,
+            preview: "assets/preview/林丽明-Teletubbies.jpg"
         },
         {
             id: 41,
@@ -833,7 +873,8 @@ new Vue({
             theory: "个人崇拜，超人哲学",
             refer: "偶像文化",
             symbol: "偶像",
-            narration: false
+            narration: false,
+            preview: "assets/preview/林丽明-林丽明全国粉丝后援会.jpg"
         },
         {
             id: 42,
@@ -841,7 +882,7 @@ new Vue({
             time: "2020/7/7 22:31:56",
             name: "陈古",
             DOB: "1989年8月22日",
-            email: "traugnehc@gmail.com；chl_art@163.com",
+            email: "traugnehc@gmail.com / chl_art@163.com",
             title: "纸箱系列",
             workURL: "晚点和我要",
             intro: "2017年创作的“纸箱系列”，选取大众通用的spaceo牌纸箱，通过纸箱的结构特点进行榫卯连接，从而由纸箱正形和负形构成了一系列临时雕塑装置。这种看似静穆却岌岌可危的临时状态与人群、生活、栖息地相关；纸箱作为景观脱离了原本的生产和消费场景，这种脆弱的材质指向了两种向内及向外的“空”。",
@@ -854,7 +895,8 @@ new Vue({
             refer: "叙利亚战争，移民与难民",
             symbol: "纸箱",
             narration: false,
-            interdisciplinary: "建筑"
+            interdisciplinary: "建筑",
+            preview: ""
         },
         {
             id: 43,
@@ -876,7 +918,8 @@ new Vue({
             refer: "无",
             symbol: "近密闭空间",
             narration: false,
-            interdisciplinary: "无"
+            interdisciplinary: "无",
+            preview: "assets/preview/欧杨-inconsistent system.jpg"
         },
         {
             id: 44,
@@ -895,7 +938,8 @@ new Vue({
             type: "行动艺术",
             theme: "个人经历, 城市化, 虚拟现实, “边界”, 记忆, 时间, 过程相关",
             symbol: "近密闭空间",
-            narration: false
+            narration: false,
+            preview: "assets/preview/欧杨-Uwhere to go.jpg"
         },
         {
             id: 45,
@@ -916,7 +960,8 @@ new Vue({
             theory: "无",
             refer: "The Psychology of Cyberspace",
             symbol: "界面，梦境",
-            narration: false
+            narration: false,
+            preview: "assets/preview/李梓涵-void remember.jpg"
         },
         {
             id: 46,
@@ -936,7 +981,8 @@ new Vue({
             theme: "个人经历, “后人类”, 互联网, 社交网络, 日常生活, 肖像, 幽默感",
             refer: "Face and Mask: A Double History",
             symbol: "脸，面具",
-            narration: false
+            narration: false,
+            preview: "assets/preview/李梓涵-Masks of Masks.jpg"
         },
         {
             id: 47,
@@ -957,7 +1003,8 @@ new Vue({
             theory: "景观",
             refer: "吃播",
             symbol: "吃播",
-            narration: false
+            narration: false,
+            preview: "assets/preview/李梓涵-ON AIR.jpg"
         },
         {
             id: 48,
@@ -977,7 +1024,8 @@ new Vue({
             theme: "个人经历, “后人类”, 互联网, 社交网络, 日常生活, 神秘主义",
             refer: "The Emperor's New Mind: Concerning Computers, Minds and The Laws of Physics",
             symbol: "界面，故障",
-            narration: false
+            narration: false,
+            preview: "assets/preview/李梓涵-Tech Paralysis.jpg"
         },
         {
             id: 49,
@@ -995,7 +1043,8 @@ new Vue({
             date: "2018",
             type: "思辨设计（Speculative Design）",
             theme: "“后人类”, 日常生活, 幽默感, 日常物件的表达",
-            narration: false
+            narration: false,
+            preview: "assets/preview/李梓涵-Modern Therapy.jpg"
         },
         {
             id: 50,
@@ -1004,8 +1053,8 @@ new Vue({
             name: "一子",
             artistURL: "https://yi-li.net",
             DOB: "1994年2月19日",
-            email: "yiliyili19@gmail.com instheoryram:lita_lian",
-            title: "I never thought of leaving, here",
+            email: "yiliyili19@gmail.com",
+            title: "I Never Thought of Leaving, Here",
             workURL: "https://yi-li.net",
             intro: "通过人工智能生成的文字，视频，音频，灯光，气味，物品与作品发生的展览地址的共谋，从感官维度再现的一个抽象空间内的谋杀叙事。",
             media: "装置（包括影像装置）, 影像（包括实验电影，动画）, 声音, 其他",
@@ -1013,7 +1062,8 @@ new Vue({
             date: "2020",
             type: "叙事性影像, 算法艺术, 数字媒体艺术",
             theme: "人工智能, 算法, 山寨/模仿, 虚构的现实, 死亡/悼念, 幽灵学",
-            narration: true
+            narration: true,
+            preview: "assets/preview/一子-I never thought of leaving here.jpg"
         },
         {
             id: 51,
@@ -1021,16 +1071,17 @@ new Vue({
             time: "2020/7/8 19:25:50",
             name: "一子",
             artistURL: "https://yi-li.net",
-            email: "yiliyili19@gmail.com instheoryram:lita_lian",
-            title: "Cryptonym of its final chapter",
+            email: "yiliyili19@gmail.com",
+            title: "Cryptonym of Its Final Chapter",
             workURL: "https://yi-li.net",
-            intro: "空间装置 实体再现了材质缩减到最简的数码空间 由匿名上传的风景图片和灯光制造景深 机械下雪装置和烟雾器 与缺乏来源信息的六频环境环绕声音 Byredo Rose of no man‘s land玫瑰香水一起复制感官中的通感 建造一个疏离的浪漫化了的人工景观",
+            intro: "空间装置 实体再现了材质缩减到最简的数码空间 由匿名上传的风景图片和灯光制造景深 机械下雪装置和烟雾器 与缺乏来源信息的六频环境环绕声音 Byredo Rose of no man‘s land玫瑰香水一起复制感官中的通感 建造一个疏离的浪漫化了的人工景观。",
             media: "装置（包括影像装置）, 声音",
             amount: "单件",
             date: "2019",
             type: "数字媒体艺术, 后网络",
             theme: "个人经历, “异化”, 城市化, “后人类”, 虚拟现实, 山寨/模仿, 建筑相关, 自然景观, 日常生活, 记忆, 虚构的现实, 光, 幽灵学",
-            narration: false
+            narration: false,
+            preview: "assets/preview/一子-Cryptonym of its final chapter.jpg"
         },
         {
             id: 52,
@@ -1038,16 +1089,17 @@ new Vue({
             time: "2020/7/8 19:32:48",
             name: "一子",
             artistURL: "https://yi-li.net",
-            email: "yiliyili19@gmail.com instheoryram:lita_lian",
-            title: "A Lucid Drean",
+            email: "yiliyili19@gmail.com",
+            title: "A Lucid Dream",
             workURL: "https://yi-li.net",
-            intro: "三个彼此独立的表演者在剧场中形成各自的空间坐标 烟雾 音乐 偶尔闪现的改变了顺序和速率拼贴视频 一同笼罩观众进入多个维度的多重叙事 ",
+            intro: "三个彼此独立的表演者在剧场中形成各自的空间坐标 烟雾 音乐 偶尔闪现的改变了顺序和速率拼贴视频 一同笼罩观众进入多个维度的多重叙事。",
             media: "行为/表演, 剧场, 影像（包括实验电影，动画）, 声音",
             amount: "单件",
             date: "2020",
             type: "行动艺术, 叙事性影像",
             theme: "个人经历, “异化”, 宗教, 精神分析",
-            narration: true
+            narration: true,
+            preview: "assets/preview/一子-A Lucid Dream.jpg"
         },
         {
             id: 53,
@@ -1055,16 +1107,17 @@ new Vue({
             time: "2020/7/8 19:35:58",
             name: "一子",
             artistURL: "https://yi-li.net",
-            email: "yiliyili19@gmail.com instheoryram:lita_lian",
-            title: "Salli‘s home",
+            email: "yiliyili19@gmail.com",
+            title: "Salli’s Home",
             workURL: "https://yi-li.net",
-            intro: "纯音频作品 由animaker.com上名为Salli的虚拟声音 向她的朋友用语言和环境音描述她新家的空间 ",
+            intro: "纯音频作品 由animaker.com上名为Salli的虚拟声音 向她的朋友用语言和环境音描述她新家的空间。",
             media: "声音",
             amount: "单件",
             date: "2020",
             type: "后网络",
             theme: "个人经历, 城市化, “后人类”, 虚拟现实, 日常生活",
-            narration: true
+            narration: true,
+            preview: "assets/preview/一子-Salli’s home.jpg"
         },
         {
             id: 54,
@@ -1085,7 +1138,8 @@ new Vue({
             theory: "关系美学",
             refer: "等待戈多-萨缪尔·贝克特，消费社会-鲍德里亚",
             symbol: "西装",
-            narration: true
+            narration: true,
+            preview: "assets/preview/聂利莎-无尽地消磨与时间.jpg"
         },
         {
             id: 55,
@@ -1106,7 +1160,8 @@ new Vue({
             theory: "人类纪",
             refer: "Hyperobjects: Philosophy and Ecology After the End of the World-Timothy Morton, 自然的政治-拉图尔，神们自己-阿西莫夫，美丽新世界-赫胥黎",
             symbol: "假陨石",
-            narration: false
+            narration: false,
+            preview: "assets/preview/聂利莎-红色幻想给了所有荒谬成为逻辑的机会.jpg"
         },
         {
             id: 56,
@@ -1114,7 +1169,7 @@ new Vue({
             time: "2020/7/9 7:22:40",
             name: "一子",
             artistURL: "https://yi-li.net",
-            email: "一子",
+            email: "yiliyili19@gmail.com",
             title: "Zero Player",
             intro: "橱窗内由灯光 打印照片 机械装置 音频 现成品构成的人造落雨夕阳景观 ",
             media: "装置（包括影像装置）",
@@ -1122,7 +1177,8 @@ new Vue({
             date: "2018",
             type: "现成品雕塑",
             theme: "城市化, 虚拟现实, 山寨/模仿, 自然景观, 环境与生态, 日常生活, 公共空间",
-            narration: false
+            narration: false,
+            preview: "assets/preview/一子-Zero Player.jpg"
         },
         {
             id: 57,
@@ -1130,7 +1186,7 @@ new Vue({
             time: "2020/7/9 7:26:54",
             name: "一子",
             artistURL: "https://yi-li.net",
-            email: "一子",
+            email: "yiliyili19@gmail.com",
             title: "Home Sweet Home",
             intro: "纸质等大单人间家具雕塑 在墓地教堂中被搭建 最终以教堂中被焚烧成灰烬的表演行为中完成转换",
             media: "装置（包括影像装置）, 雕塑（包括玻璃，综合材料）, 行为/表演",
@@ -1138,7 +1194,8 @@ new Vue({
             date: "2018",
             type: "研究性艺术",
             theme: "山寨/模仿, 日常生活, 宗教, 死亡/悼念, 日常物件的表达",
-            narration: false
+            narration: false,
+            preview: "assets/preview/一子-Home Sweet Home.jpg"
         },
         {
             id: 58,
@@ -1146,7 +1203,7 @@ new Vue({
             time: "2020/7/9 7:43:06",
             name: "一子",
             artistURL: "https://yi-li.net",
-            email: "一子",
+            email: "yiliyili19@gmail.com",
             title: "Mundsburger Damm 23",
             intro: "作品是基于当时作者居所建筑内景的数码建模制作的视频 空间和时间的连续性被简化为基础数码表面的材质瞬时剖面 在去除了窗景和日常痕迹的日常生活空间被失真模拟后而成为如幽灵般的第一视角反复步入路径里的空间标本",
             media: "影像（包括实验电影，动画）",
@@ -1154,7 +1211,8 @@ new Vue({
             date: "2018",
             type: "叙事性影像",
             theme: "个人经历, 虚拟现实, 日常生活, 记忆, 虚构的现实, 死亡/悼念, 幽灵学, 日常物件的表达",
-            narration: true
+            narration: true,
+            preview: "assets/preview/一子-Mundsburger Damm 23.jpg"
         },
         {
             id: 59,
@@ -1162,7 +1220,7 @@ new Vue({
             time: "2020/7/9 7:49:48",
             name: "一子",
             artistURL: "https://yi-li.net",
-            email: "一子",
+            email: "yiliyili19@gmail.com",
             title: "👌",
             intro: "视频中类比了人类肢体的流行语汇，工具使用驯化以及人工智能的识别训练中的有意识/无意识地学习与被学习 ",
             media: "影像（包括实验电影，动画）",
@@ -1170,7 +1228,8 @@ new Vue({
             date: "2018",
             type: "算法艺术, 数字媒体艺术",
             theme: "人工智能, 算法, 山寨/模仿",
-            narration: false
+            narration: false,
+            preview: "assets/preview/一子-👌.jpg"
         },
         {
             id: 60,
@@ -1178,7 +1237,7 @@ new Vue({
             time: "2020/7/9 7:57:50",
             name: "一子",
             artistURL: "https://yi-li.net",
-            email: "一子",
+            email: "yiliyili19@gmail.com",
             title: "A Minimizing Plan",
             intro: "由三个视觉中带有五角星且在全球享有拥有高度权力和话语权的国家/组织的旗帜构成的三幕游戏 观众可以选择性的用一个白色的球去撞击旗帜中立体化了的五角星 不带有重力的五角星会随之漂浮而走 带有重力的白球摔出旗帜底面的表面后会下坠直到开启下一幕场景 如此循环 游戏没有任何分数 成就以及结局 ",
             media: "数字媒体（包括算法艺术,网络艺术,VR）, 其他",
@@ -1186,7 +1245,8 @@ new Vue({
             date: "2017",
             type: "数字媒体艺术",
             theme: "游戏, 幽默感, 政治事件",
-            narration: false
+            narration: false,
+            preview: "assets/preview/一子-A Minimizing Plan.jpg"
         },
         {
             id: 61,
@@ -1194,7 +1254,7 @@ new Vue({
             time: "2020/7/9 8:02:55",
             name: "一子",
             artistURL: "https://yi-li.net",
-            email: "一子",
+            email: "yiliyili19@gmail.com",
             title: "A Book to Fondle ",
             intro: "艺术家书 由视觉材质贴图和与触摸有关的网络图片组成的拼贴 由印刷油墨呈现在可感的纸张物质上 ",
             media: "书",
@@ -1202,7 +1262,8 @@ new Vue({
             date: "2018",
             type: "数字媒体艺术",
             theme: "虚拟现实, 幽默感, 线条，形式，颜色, 诱惑与求爱",
-            narration: false
+            narration: false,
+            preview: "assets/preview/一子-A Book to Fondle.jpg"
         },
         {
             id: 62,
@@ -1222,13 +1283,14 @@ new Vue({
             theme: "个人经历, 都市文化, 日常生活, 幽默感, 光, 日常物件的表达, 跨学科研究",
             theory: "Janet Cardiff",
             narration: false,
-            interdisciplinary: "物理计算，编程，动作"
+            interdisciplinary: "物理计算，编程，动作",
+            preview: "assets/preview/励明娜-在盒子里.jpg"
         },
         {
             id: 63,
             submitter: "全 Quan",
             time: "2020/7/9 12:32:08",
-            name: "全宇飞 Yufei Quan",
+            name: "全宇飞",
             artistURL: "https://www.quanyufei.com",
             DOB: "1994年6月16日",
             email: "yquan01@risd.edu",
@@ -1240,13 +1302,14 @@ new Vue({
             date: "2018",
             type: "观念艺术, 研究性艺术, 行动艺术, 现成品雕塑",
             theme: "都市文化, 日常生活, 跨学科研究, 过程相关",
-            interdisciplinary: "生物力学、身份识别技术、步态识别"
+            interdisciplinary: "生物力学、身份识别技术、步态识别",
+            preview: "assets/preview/全宇飞-The artificial walk (training).jpg"
         },
         {
             id: 64,
             submitter: "全 Quan",
             time: "2020/7/9 12:45:37",
-            name: "全宇飞 Yufei Quan",
+            name: "全宇飞",
             artistURL: "https://www.quanyufei.com",
             DOB: "1994年6月16日",
             email: "yquan01@risd.edu",
@@ -1258,7 +1321,8 @@ new Vue({
             date: "2019",
             type: "观念艺术, 研究性艺术, 行动艺术",
             theme: "个人经历, 医疗/健康, 日常生活, 幽默感, 跨学科研究, 测量",
-            interdisciplinary: "生物力学、体育"
+            interdisciplinary: "生物力学、体育",
+            preview: "assets/preview/全宇飞-The center of gravity.jpg"
         },
         {
             id: 65,
@@ -1276,7 +1340,8 @@ new Vue({
             date: "2019",
             type: "观念艺术, 研究性艺术, 行动艺术",
             theme: "个人经历, 医疗/健康, 日常生活, 跨学科研究, 过程相关",
-            interdisciplinary: "运动"
+            interdisciplinary: "运动",
+            preview: "assets/preview/全宇飞-The center of gravity 2.jpg"
         },
         {
             id: 66,
@@ -1294,7 +1359,8 @@ new Vue({
             date: "2019",
             type: "观念艺术, 研究性艺术, 社会介入, 行动艺术, 系统艺术（system art）",
             theme: "个人经历, 都市文化, “他者”, 医疗/健康, “系统”, 日常生活, 跨学科研究, 测量, 过程相关",
-            interdisciplinary: "生物力学、步态识别技术、身份认定"
+            interdisciplinary: "生物力学、步态识别技术、身份认定",
+            preview: "assets/preview/全宇飞-The artificial walk.jpg"
         },
         {
             id: 67,
@@ -1314,7 +1380,8 @@ new Vue({
             refer: "瑞士纺织产业的历史\nCotton in Context\nManufacturing, Marketing, and Consuming Textiles in the German-speaking World (1500 – 1900)",
             symbol: "glarner tüechli, 瑞士生产的棉质方巾，是这里流行的特色产品之一。最常见的方巾是印有paisley花纹， 而此花纹是印度的传统花纹。",
             narration: true,
-            interdisciplinary: "历史"
+            interdisciplinary: "历史",
+            preview: "assets/preview/韩佳希-家书.jpg"
         },
         {
             id: 68,
@@ -1334,7 +1401,8 @@ new Vue({
             theme: "个人经历, 亚文化, 女权/女性, 诱惑与求爱",
             refer: "陀思妥耶夫斯基《白夜》、茨维格《一个陌生女人的来信》、户川纯《赤色战车》",
             narration: true,
-            interdisciplinary: "文学"
+            interdisciplinary: "文学",
+            preview: "assets/preview/黄安澜-Her Love is a Bleeding Tank.jpg"
         },
         {
             id: 69,
@@ -1355,7 +1423,8 @@ new Vue({
             theory: "上野千鹤子，Laura Mulvey，Social Engaged Art",
             symbol: "偶像",
             narration: true,
-            interdisciplinary: "文化研究"
+            interdisciplinary: "文化研究",
+            preview: "assets/preview/黄安澜-How to be a Former Idol.jpg"
         },
         {
             id: 70,
@@ -1375,7 +1444,8 @@ new Vue({
             theory: "Claire Bishop，上野千鹤子，巴塔耶 ",
             symbol: "偶像",
             narration: false,
-            interdisciplinary: "人类学， 文化研究"
+            interdisciplinary: "人类学， 文化研究",
+            preview: ""
         },
         {
             id: 71,
@@ -1394,7 +1464,8 @@ new Vue({
             theory: "鲍德里亚，Necropolitics，幽灵学，巴塔耶，马赛尔·莫斯",
             refer: "象征交换与死亡，明器，崖墓",
             symbol: "戴森吹风机，凹面镜，墓葬",
-            narration: false
+            narration: false,
+            preview: ""
         },
         {
             id: 72,
@@ -1413,7 +1484,8 @@ new Vue({
             theory: "卑贱Abject（茱莉亚·克莉斯蒂娃），德里达，Geomancy，Geotrauma，巴塔耶，新物质主义，Nekros (Eugene Thacker)",
             refer: "放血疗法",
             symbol: "血，皮肤，岩浆，石油泄漏",
-            narration: false
+            narration: false,
+            preview: ""
         },
         {
             id: 73,
@@ -1432,7 +1504,8 @@ new Vue({
             theory: "后结构主义，幽灵学，媒介理论",
             refer: "揣测与媒介（鲍里斯·格罗伊斯）",
             symbol: "手，手诀，键盘，触摸屏，打字机",
-            narration: true
+            narration: true,
+            preview: ""
         },
         {
             id: 74,
@@ -1450,7 +1523,8 @@ new Vue({
             theory: "环境女性主义",
             refer: "技术介绍",
             symbol: "土 鹦鹉",
-            narration: true
+            narration: true,
+            preview: ""
         },
         {
             id: 75,
@@ -1471,7 +1545,8 @@ new Vue({
             theory: "死亡政治学，道德相对主义，道德作为社会建构，社会建构主义，人类中心主义，他者化身体，他者性，系统性和结构性暴力，朱迪思·巴特勒，齐泽克，汉娜·阿伦特，福柯，韩炳哲，尼采，Achille Mbembe",
             refer: "何为权力，韩炳哲，格罗宁根协议，水的哲學，李小龙，脆弱不安的生命，朱迪思·巴特勒，暴力：六个侧面的反思，齐泽克，幻想的瘟疫，论暴力，汉娜·阿伦特，福柯-规训与惩罚，尼采，善恶的彼岸",
             symbol: "肉，冰，环形灯，手，手指，水，油",
-            narration: false
+            narration: false,
+            preview: "assets/preview/厉奫-EUTHANASIA.jpg"
         }
       ]
     }
@@ -1482,6 +1557,7 @@ new Vue({
       var archives = this.archives.filter(archive => {
         return archive.name.toLowerCase().includes(this.filter.toLowerCase()) || 
         archive.title.toLowerCase().includes(this.filter.toLowerCase()) || 
+        archive.intro.toLowerCase().includes(this.filter.toLowerCase()) || 
         archive.type.toLowerCase().includes(this.filter.toLowerCase()) || 
         archive.theme.toLowerCase().includes(this.filter.toLowerCase())
       });
@@ -1499,16 +1575,5 @@ new Vue({
       };
 
     }
-    // filteredArchives: function () {
-    //   var vm = this;
-    //   var type = vm.selectedType;
-
-    //   if(type === "All") {
-    //     return vm.archives;
-    //   } else {
-    //     return vm.archives.filter(function(artist) {
-    //       return artist.type === type;
-    //     });
-    //   }
-    // }
-   } });
+  } 
+});

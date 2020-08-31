@@ -39,7 +39,7 @@ body {
   margin: 10px 0;
 }
 
-button{
+button {
   background: white;
   border: 2px solid black;
   border-radius: 5px;
@@ -52,12 +52,12 @@ button{
   transition: .3s ease
 }
 
-button:hover{
+button:hover {
   background: #666666;
   color: #fff;
 } 
 
-button.active{
+button.active {
   background: black;
   color: #fff;
 }
@@ -77,9 +77,23 @@ button.active{
   max-width: 980px;
   margin: 20px auto;
 }
+
 @media screen and (max-width: 1050px) {
   .container {
     width: 95%;
+  }
+
+  button {
+    background: white;
+    border: 3px solid black;
+    border-radius: 7.5px;
+    padding: 6px 12px;
+    margin: 6px;
+    font-size: 1.125em;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ease
   }
 }
 
@@ -94,7 +108,6 @@ button.active{
   border: 2px solid black;
   border-radius: 5px;
   background-color: white;
-  opacity: 0.75;
   /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15); */
   margin-bottom: 10px;
 }
@@ -123,11 +136,22 @@ button.active{
   padding-left: 5%;
 }
 
+.result_info {
+  overflow: auto;
+}
+
 .result_intro {
   font-size: 0.85em;
   line-height: 16pt;
   color: black;
-  padding-left: 45%;
+  padding-left: 35%;
+  padding-right: 5%;
+}
+
+.result_preview {
+  float: left;
+  padding-top: 1.5%;
+  padding-left: 5%;
   padding-right: 5%;
 }
 
@@ -151,7 +175,7 @@ button.active{
   padding-left: 5%;
 }
 
-.result_empty {
+.sresult_empty {
   background-color: transparent;
   box-shadow: none;
 }

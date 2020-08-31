@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Trigger Database</title>
-  <link rel="icon" href="./favicon/favicon-32x32.png"/>
+  <link rel="icon" href="./assets/favicon/favicon-32x32.png"/>
   <link rel="stylesheet" href="./css/style.css">
   <link rel='stylesheet' href='https://unpkg.com/element-ui@1.1.6/lib/theme-default/index.css'>
 
@@ -16,7 +16,7 @@
 
   <el-row class="header" :gutter="10">
     <el-col>
-      <img src="./img/logo.png" alt="logo" />
+      <img src="./assets/img/logo.png" alt="logo" />
       <h1>Trigger Database</h1>
     </el-col>
   </el-row>
@@ -149,12 +149,17 @@
   <el-row :gutter="10">
     <el-col v-for="archive in getArchives" :lg="24" :md="24" :sm="24" :xs="24">
       <div class="result"> 
-        <div class="result_title"><a v-bind:href="archive.artistURL" target="blank"> {{ archive.title }} </a></div>
+        <div class="result_title"><a v-bind:href="archive.workURL" target="blank"> {{ archive.title }} </a></div>
         <div class="result_date"> {{ archive.date }} </div>
         <div class="bottom-stripe col-md-12">
         <div class="bottom-stripe-inner"></div>        
         <br />
-        <div class="result_intro"> {{ archive.intro }} </div>
+        <div class="result_info">
+          <a v-bind:href="archive.workURL" target="blank">
+            <img class="result_preview" v-bind:src="archive.preview" width="250">
+          </a>
+          <p class="result_intro"> {{ archive.intro }} </p>
+        </div>
         <br />
         <div class="result_name"><a v-bind:href="archive.artistURL" target="blank"> {{ archive.name }} </a></div>
         <div class="result_email"> {{ archive.email }} </div>
@@ -162,7 +167,7 @@
     </el-col>
 
     <el-col v-if="getArchives.length === 0" :xs="24" :sm="24" :md="24">
-      <div class="result result__empty"> 未找到相符的结果 </div>
+      <div class="result result_empty"> 未找到相符的结果 </div>
     </el-col>
 
   </el-row> <!-- results -->
